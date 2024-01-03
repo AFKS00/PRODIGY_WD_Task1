@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://static8.depositphotos.com/1364311/837/i/450/depositphotos_8370502-stock-photo-briefcase.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    transition: background-color 0.5s;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-item:hover {
+    background-color: #555;
+    color: #ffcc00;
+}
+
+.scrolled {
+    background-color: #222;
+    box-shadow: 0 2px 5px rgba(1, 0, 0, 0.1);
+}
+#home {
+    background-color: #f0f0f0;
+}
+
+#about {
+    background-color: #e0e0e0;
+}
+
+#services {
+    background-color: #d0d0d0;
+}
+
+#contact {
+    background-color: #c0c0c0;
+}
+
+.content-section {
+    padding: 50px;
+    text-align: center;
+    margin-top: 80px;
+    background-color: #A0A0A0; /* Add your desired background color here */
+   border-radius: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.content-section:hover {
+    transform: scale(1.05);
+}
+
+p ,h4 {
+    color: #499581; /* Text color for content */
+}
+h1 {
+    color: #333; /* Text color for content */
+}
+
+.nav-item.active-clicked {
+    color: #ffcc00; /* Change the color to your preference */
+    transition: color 0.5s;
+     /* Add a transition for a smooth color change */
+}
+
+
+
+.extra-space {
+    height: 100px; /* Adjust the height based on how much space you want after the "Contact Us" section */
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top:hover {
+    opacity: 1;
+    background-color: #555;
+}
+
